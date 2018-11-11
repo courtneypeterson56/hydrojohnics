@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+
+<html>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+		<script>
+		$(document).ready(function(){
+		  // Add smooth scrolling to all links
+		  $("a").on('click', function(event) {
+
+		    // Make sure this.hash has a value before overriding default behavior
+		    if (this.hash !== "") {
+		      // Prevent default anchor click behavior
+		      event.preventDefault();
+
+		      // Store hash
+		      var hash = this.hash;
+
+		      // Using jQuery's animate() method to add smooth page scroll
+		      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+		      $('html, body').animate({
+		        scrollTop: $(hash).offset().top
+		      }, 800, function(){
+
+		        // Add hash (#) to URL when done scrolling (default click behavior)
+		        window.location.hash = hash;
+		      });
+		    } // End if
+		  });
+		});
+		</script>
+
+	<head>
+		<title> Hyrdojohnics </title>
+			<link href="main.css" rel="stylesheet" type="text/css" />
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+			<link rel= "stylesheet" type= "text/css" href="lightbox.min.css">
+			<script type= "text/javascript" src= "lightbox-plus-jquery.min.js"></script>
+			<link rel="shortcut icon" href="img/blacklogo.ico">
+  </head>
+
+	<div class="nav">
+			<b> <a href="#home"> HOME  </a> </b>
+			<b> <a href="#about"> ABOUT </a> </b>
+			<b> <a href="#howitworks"> HOW IT WORKS </a> </b>
+			<b> <a href="#gallery"> GALLERY </a> </b>
+			<b> <a href="#contact"> CONTACT </a> </b>
+	</div>
+
+	<body>
+
+	<div id="page1">
+		<img src="logo.png">
+  	<a id="home" class="smooth"></a>
+		<header>
+					<h1>HYDROJOHNICS</h1>
+		</header>
+		<h2>John Peterson Hydroponics</h2>
+	</div>
+
+	<div id="page2">
+  	<a id="about" class="smooth"></a>
+		<div class="boxed" style = "position:relative; top:80px;">
+			<h1> ABOUT </h1>
+			<p> My name is John Peterson and I recently got into Hydroponics. My name is John Peterson and I recently got into Hydroponics. My name is John Peterson and I recently got into Hydroponics.My name is John Peterson and I recently got into Hydroponics.My name is John Peterson and I recently got into Hydroponics. <br> My name is John Peterson and I recently got into Hydroponics. My name is John Peterson and I recently got into Hydroponics.My name is John Peterson and I recently got into Hydroponics.My name is John Peterson and I recently got into Hydroponics. </p>
+		</div>
+	</div>
+
+	<div id="page3">
+  	<a id="howitworks" class="smooth"></a>
+		<h1> How It Works </h1>
+	</div>
+
+	<div id="page4">
+  	<a id="gallery" class="smooth"></a>
+    <h1> GALLERY </h1>
+		<div class= "gallery">
+			<a href="wood.jpg" data-lightbox="mygallery" data-title= "This is a picture of wood."> <img src="wood.jpg"></a>
+			<a href="leaf.jpg" data-lightbox="mygallery"> <img src="leaf.jpg">
+			<a href="lettuce.jpg" data-lightbox="mygallery"> <img src="lettuce.jpg">
+			<a href="dirtbackground.jpg" data-lightbox="mygallery"> <img src="dirtbackground.jpg">
+			<a href="photo.jpg" data-lightbox="mygallery"> <img src="photo.jpg">
+			<a href="wood4.jpg" data-lightbox="mygallery"> <img src="wood4.jpg"></a>
+	</div>
+</div>
+
+	<div id="pagetransition">
+		<a id="pagetransition" class="smooth"></a>
+	</div>
+
+	<div id="page5">
+  	<a id="contact" class="smooth"></a>
+		<div class="boxed" style = "position:relative; top:80px;">
+			<h1> CONTACT </h1>
+			<p> john@blank.com <br> (###) ###-#### </p>
+		</div>
+	</div>
+
+	<div id="page6">
+  	<a id="footer" class="smooth"></a>
+    	<a> © 2018 by Courtney Peterson</a>
+	</div>
+
+</body>
+
+</html>
