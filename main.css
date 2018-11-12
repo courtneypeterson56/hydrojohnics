@@ -137,6 +137,13 @@ html, body {
   line-height: 200px;
 }
 
+#page3 img {
+  position: absolute;
+  top: 1720px;
+  right: 240px;
+
+}
+
 #page4 {
   overflow-y: hidden;
   margin: 0;
