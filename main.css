@@ -41,7 +41,7 @@ html, body {
 
 #page1 {
   height: 900px;
-  background-image: url("photo.jpg");
+  background-image: url("Images/Backgrounds/photo.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -118,7 +118,7 @@ html, body {
 
 #page3 {
   height: 800px;
-  background-image: url("dirtbackground.jpg");
+  background-image: url("Images/Backgrounds/dirtbackground.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -141,7 +141,6 @@ html, body {
   position: absolute;
   top: 1720px;
   right: 240px;
-
 }
 
 #page4 {
@@ -191,7 +190,7 @@ html, body {
 
 #pagetransition {
   height: 300px;
-  background-image: url("lettuce2.jpg");
+  background-image: url("Images/Backgrounds/lettuce2.jpg");
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
