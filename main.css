@@ -54,7 +54,7 @@ html, body {
   color: white;
   text-align: center;
   text-transform: uppercase;
-  letter-spacing: -2px;
+  letter-spacing: 8px;
   line-height: 700px;
   font-size: 70px;
   font-weight: normal;
@@ -65,10 +65,10 @@ html, body {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 2px;
-  font-size: 15px;
+  font-size: 18px;
   font-weight: lighter;
   position: relative;
-  bottom: 100px;
+  bottom: 120px;
 }
 
 #page1 img {
